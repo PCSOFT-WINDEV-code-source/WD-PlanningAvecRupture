@@ -1,0 +1,160 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_WinDevVueRDV
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_WinDevVueRDV
+ identifier : 0x2b4ca680040eba9d
+ internal_properties : CAAAAAgAAABvtb25b2Ivw3ZbkAZ0Y5j4Sqg5Wv2IMerNZ75Bj9VygwvRaoUIwqlgJjomLwOEoDswQeObrqLpnNKSYgg5zBJVNW9ztNNDhMLMVHeB0Xqa6wHZ3ubDpvHASUQ6qGqrngzmfifV5MPzDZF/4uQZMd3rf1hTzVG067KlW24rid467hy7gS8LqLlCyX2bic3XsqbveKV5IacHVBPTUoV1bGGUjriTrgv0buMAIOXvCZNAzcPg9kBgSQfthIyTGmZ6s2/OA/uMrdGmU8M6pjK+lU9xiwN6cns7t6XRtHo89PNh0ZmpqfqZj6kFUaJu43fqtCTD+licOkp3RDFucrbRnPHmpZAWW6Gik44+UxE1R3xhu52lz/5GyP8jx1L8CJuh9YUYjr3LXhIR5gUMoMF+hyNss8PwNxbk2Scc5eadMRu/eZ5ku4TvmNDqWXSqaLsrTciZhd0MEc/PCBgkoOegRfcZH4tVDHfzGiTXxT8/N0HhrxWvq6Kej7ncAvqczTuYjF4aTApUmBBcObyjn3QrUIQPFK3KHZ1GtUdU7MpFXZFcHGAUwPWp7mpjGC2raKa9lyTXRN2/8Mx3FlPPxAwm8xGCbyGAwJQCbGU3CmdyTx5aTC778b2L8bwZIHIB9vgyS/jir095YsU4xSn/SjXVtC3S6jbe/gq8qZ0fU8GLO0LJAS20aYAj+IZRg+HvJ8CzfNP37oHxgzThsm/dZEM92sGJzoIJMBSWr3rwHwiMjxCUbutgl2/y1QHoBhY1in5+sAnuJ9uoLDHGXUnj9iZO8J3hLIRI6zu4X3n6sKrxkmvmp6F1L5oxafYKGblcgsQ7MCFa+zjyXnOKNEKCv/FOaGkbD7xNyUrNNi67JRWEyvocElDtt8hkub/VJPZ2muTA75d+br/kQA==
+ properties :
+  width : 175
+  height : 104
+ controls :
+  -
+    name : FI_WinDevVueRDV
+    identifier : 0x2b4ca682040fc2ea
+    internal_properties : CAAAAAgAAABtJNtjpFM004d0gRVXgrm0X6mJoWaCklkyntY3q2O+r+BsjoE2/bjRHEGBL2Z5V7+tjmGxFr6SPqOe6HAolXFHIoJugvrXXMxeJMul3TpaQcLC1Qpwwd9R/IwzTjXEzVyV+Yp40Wk7i55NUlSKymAIvTKMeP9923ffnHlABQSw1uzyykMaqPN7nuQaK31CG+WTR6IarMr2KEktki7vjGPohrF3LeCFmVp+QZGnpdY+HVB6yLTH2RehG3MB4gvqhwDDH6M78JqWLL4Lu4s7Y7H97fU8U8t5tdlO/P2nvrWwXbbP1uf2kbrkz+SCwYsmpsnbZOLW1KBLGbiO2n93qjZdLnCA+XfnKHB4G7AJLmk4voCOyZ4apt2c/bselm1NRQERVMCRr3AEWjFjOCbaXw9tYEiGRhvY0Y3nW4phLAKx0RrRJ0cC6xNneCI3T92haCs5R7gb1mvNPzuVt0hXWv4/FvcHPo4JWCg5h4TdTr6ExLVEcDYLZKXwYRUFr9dWOYmc7ExejfI9ZQJ8gBXNGSsRuECfhV4WGnCb+HQw7Z6U2JgiezBPTMdiGpJFmTaFditu7hp145FAyLQNf5xGQF3KoL4yzNmNUZQMpGcYcmqntP9OO9MfsAiX+1Cl7c0ZDyxcVBwhWfJ/xgOYtPzGMa+OnydQXc+Mx6pcaqp28PaSp9rtrggY83x7/L4tHPeMOnZ0BFaIgXPvc0gAlvGS0Psn3II/ccXrSK8jgRUBXuuIotCv2kWYBw==
+    properties :
+     width : 175
+     height : 104
+    controls :
+     -
+       name : LIB_TitreRDV
+       identifier : 0x2b4ca6820412c2ea
+       internal_properties : CAAAAAgAAAA+jvcIUMcvhp3bhstHAIjch3H6lCXRSVnjN5DpXM8e/w17fvQe2xm38pP5ckNR+u/A5e1HnDplt5pByagc21uVT8bu8TXl84gszrHc7xJrVqGMv75pYgivCjOMzhbYu1AUE4kPSp13pRurRC48gYbIp3ZSlKc9XbgGXdUnpN6P/Z/4udtt8rR+lRJMnlCDagYfdvLwZYoC8tcMoD+6R5aEH8mjoIOz5rNp3vLQLXXg/T4YM5YZTZWG/XCxtr1Qa624bn9XH8IoCOkUlKV4ga9Es5k7QyGHBzbySO0n3X7ioKjB+s+YXobfWwCe8DTI6eJMsuX6clzhJ2aLc91PRg7yZkbiut0GWok9Ld8pRyWsVUiX+Xn3tZLUQ+AMyixfnrX+rlmFGiDkDiB9sh4g1llnsEbB9jSQtzs0WpJVtwkX3rN253oAxx5l4gI4fO73vDSCgWCo0NTg8tM0svaHdcsu7cfB3gJjq1c72Q2i2M+wZjUp0PHgvjHgDqxkHKMZYcse5UgYjFKULmOquQ/Z9HAmFN/CclraNIJOsNDfadC3il9RupxtbYWgjXGdQuhcjdHv9evdZmsro3NGG4s/oOSU5wSUXwM+pgTcNA==
+       properties :
+        x : 14
+        y : 10
+        width : 155
+        height : 85
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Masque
+       identifier : 0x2b4ca6a204793fbb
+       internal_properties : CAAAAAgAAADE3AuYdRx4tKzEjbGAZNHKXf5gCRcBY9flLaJwfTW2l3jrzGrwJCzkKnTC5ST1wAH4zHutkKyDIhv5TLRx8+lxd+ecM7E6zCWKB/WiELukfyU7ZoVB4cBPZEH8d9q4ZAsMZg61oET77DJQjqsGK0t07twkgo1dbFWSUjTiQgJAjrrZQw3NXPl98Rh7kMvuL3em6YXrexsq1/nu8HakQN62wkKltTYsxvVRkp690I7oOy0cXl3tlDCw2YC3oq6RrqontYw/QBjaRkQqXQwEGKTO4KKjp+70TY46Fmbs036NbpmhmsIoQPM4ZHPs5Mu+sdZm8VpiENH+uXUwLpr/lcmlGqscmZkrk794RZIkQfSzsLr81lbH6MR/uqBUX9XQ1aHx/2986hPELmAHMMqKo2uMnCJT1L7DXpTlIS38Hl8iOnHy4JoNxr/uZpy+xxhBuN396hjYxCg+oWPlr5gylggymozi/oA5+a3RQfJuoHZYnYCq1yR/u2fHEYS/KDBGpt3gFpRBDErfqgP/bqJQDBv3vBhx+y5gD86hIApU7krCRldEG7t0IjO5+FyX8GOXIFAocrDeDiJls4aO0IiM+oyzJmcpa4SqfB1dn91vkYK8BvM7N1XPce8H0cVVwsQL1QxEofzioNgnT/yQep9V1w57T+iN50AsvsAH5I7Uj5NUo0mZ3er3cldpfaaTvsiQoxmB97rYo0cAz9wIQeJN3p4KwmZwPakLBXh3M9xd4mBH9a391YXJSLORW21FBxqAqe6l87tK6XHaMk/BK3TvtqMRbTeemtNZLFF/1w74WfOs+sxj6IWo6JfUZfY3XRXFTdy4p6HJInlwVt+/YRcUz9T5VrGeJLg4VYwes30v+t/gIOleDVguSOZ5pSVV8WJtWuIzJOcgE1xlDv4m
+       properties :
+        x : 12
+        width : 166
+        height : 104
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABDNRqBTUs3xs+cj0ok74BJo/18zEiNE/vfEjOAWAWvP8FsbljDYFE9OPNzhAgm7b73GupgoHRK7DYVgDXIiHaMxbnMM01kYMAchroUfgowQiMRUGsCI25v+KDl/P+ZL5ytvb9JarxmKiyOv+Q=
+        code : |1+
+         // Procédure appelée avant chaque dessin d'un rendez-vous de champ Agenda, Planning, TimeLine, Gantt
+         // Ce code est ré-exécuté pour CHAQUE affichage d'un rendez-vous 
+         // NB :  Il est possible de crée un agencement de moins de 32px de haut pour l'utiliser en mode "Mois calendaire" dans un champ agenda
+         procédure FI_WinDevVueRDV( EvenementOuRDV )
+         //EvenementOuRDV : Rendez-vous ou Evenement a dessiner
+         
+         // => SourceVersEcran
+         LIB_TitreRDV 					= EvenementOuRDV.Titre
+         LIB_TitreRDV..Couleur			= CouleurLisible(EvenementOuRDV.couleurFond)
+         mafenetreinterne..couleurFond	= EvenementOuRDV.CouleurFond
+      -
+        type : 15
+      -
+        type : 16
+ menu :
+  name : _Menu
+  identifier : 0x2acc86310b04310d
+  internal_properties : CAAAAAgAAABU7keOoJbvzImUbcupy5X07lO0Oo8HQSWjGw8+h3iDxUeq0mRs0DWuWGjChmU0Ujd/OL+XKS49ARaiRb4KuxH045rez/ALqapEVmUPArVvk3fxUk2P7tJMns/FR2rGln+1toDNI07pbHFsDFvv+ysmvvcNBhuY8c/cpMKxKkSp+Gr8jWI+5SOX+RHAIrrc4FLgferkZP7NS6ROi5aPat0li5bnMoGVbyBK4X1k4pJJOfAWNXRHNudMiTAtGghV+AyOq54igFSba4ljOb25QZHw+TMVN3yTMvwqxaAkoBOIeBMlpeN5DtsTtqAa1tTgSeR+Ca08zx47sSYYpRR1FyNpV4PQeo9gcqAon2+52A6vmiW3pTcmlYHzBb8k9hdRDlfj+S0Hw90XOfcg9o8EDNhfFYRt5sGkG9IRAv4H95u/jCwpMA/IcWGTXAkWZzzyucH7oV26Y5yAzOxTJg/boFYSoMay4N0eK7kNepzEprXhJsc471kVVwpmLNrgL+vcofgmM88=
+  options : []
+ languages :
+  - fr-FR
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : CouleurLisible
+     procedure_id : 1967130476534739000
+     type_code : 14
+     code : |1+
+      // Résumé : Retourne la couleur inverse adapté à la couleur demandée
+      // Syntaxe :
+      //[ <Résultat> = ] CouleurLisible (<CouleurOrigine> est Couleur)
+      //
+      // Paramètres :
+      //	CouleurOrigine (Couleur) : Couleur d'origine
+      // Valeur de retour :
+      // 	Couleur : Couleur inverse
+      //
+      PROCEDURE CouleurLisible(LOCAL CouleurOrigine est une Couleur) : Couleur
+      
+      nLuminosité est un entier
+      rLuminance est un réel
+      CouleurRetour est une couleur
+      
+      
+      // Calcul de la luminance de la couleur passée en paramètre
+      rLuminance = 1 - (0.299 * CouleurOrigine..Rouge + 0.587 * CouleurOrigine..Vert + 0.114 * CouleurOrigine..Bleu)/255
+      
+      // En fonction de la luminance, la couleur d'écriture doit avoir une faible ou une forte luminosité
+      SI rLuminance < 0.5 ALORS
+      	// Faible luminosité
+      	nLuminosité = 30
+      SINON
+      	// Forte luminosité
+      	nLuminosité = 30
+      FIN
+      
+      // La couleur renvoyée conserve la tonalité et la saturation
+      CouleurRetour = TSL(CouleurTeinte(CouleurOrigine), CouleurSaturation(CouleurOrigine), nLuminosité)
+      
+      
+      // Renvoie la couleur inverse trouvée
+      RENVOYER CouleurRetour
+     type : 458752
+   -
+     name : CouleurLisible
+     procedure_id : 1967130476534739000
+     type_code : 14
+     code : |1+
+      PROCEDURE CouleurLisible(LOCAL nCouleurOrigine est un entier) : entier
+      
+      CouleurOrigine est une couleur
+      CouleurRetour est une couleur
+      
+      
+      // Mémorise la couleur d'origine
+      CouleurOrigine = nCouleurOrigine
+      
+      // Appelle la syntaxe avec les variables de types couleur
+      CouleurRetour = CouleurLisible(CouleurOrigine)
+      
+      
+      // Renvoie la couleur inverse trouvée
+      renvoyer CouleurRetour..Couleur
+     type : 458753
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x1fc7969d176c695b
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

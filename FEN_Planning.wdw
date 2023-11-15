@@ -1,0 +1,1129 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Planning
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Planning
+ identifier : 0x219cdf43145941b9
+ internal_properties : CAAAAAgAAAAb6rHHtsh3adoyZdU7uYDc6kJskJ8fk/jKanQKvItp9wgnjoWkQVWmBV9De6Xyv8nk9LmU0hWnxJygXeXyIeM92cZmfskF7B0mfg6YNo8YRNvP/4Gh+3Binpzx/LuJMc8yY/zFStl9vzK5UhVxtCFZOSW2iB01gKH/AuaMmhS2lj9Ib2zTTBrEktqu6r+lk0LCyhZXLCmoog514ftSePXH+aw1JUOc0vQ23Pm1Y54y3vB3SfopFS6nXmk10XN5sVQr6iTVIX8PfvYXimPr7Yzxclt2yVnk6nIgL11kEcraW+HagFexutqFINuwMTfzk/CUjYerwnCx/tGNaVhXrTc1Rx130g4Sc2jml35SDNj3EEpUSzw0exYab+JTOmVNGt1CohjOENIpHaZDotNw4tQRVTeD8zzepdjye0jYQ7GyeymahRNYaUKy55eKTycwgrCoo4lH2uMzQVZ424BsmGhxp1IMAGXLWvNGk6JQrwbYqLwSdnPt1jaPq0n2wy/M1UmGDyY/yWMGC8I9O7ADZq7pV6BeG0bbm9oP28JgS5p8T61ufOIz3+Ymt49LpOi0FiIEMZ5qieocqZlQAUtHLyqMyOoXjMP7tqj9Nzdkmw96y4RbCZVBUv6Ouzky5Spq+ov7By4rjGsQkpVXbt25Eght0hBLZdr/o5IZsevB7yDmLDbTEhAmuvBnqPcpBd1PY62MzG8RslEyuadDL4TmhXWNS92yRvyrdjl7nGLESoeVUHYT2v/cPj+IbL4lQnjknmk/mtzPYAPMcGLo1JC9Ce7IdMJ6QJdkmSjiZv+pMhMBMg+EzkrwkxLohKFkZej2TA==
+ properties :
+  width : 786
+  height : 652
+  widthClient : 784
+  heightClient : 620
+ controls :
+  -
+    name : BTN_F5
+    identifier : 0x219cdf43145e41b9
+    internal_properties : CAAAAAgAAADmqnunewHj8YplGo3NJY4Ds/lInlNF1DEl/CoO9mdERCX9PKBvfGAJVdIKmuP5ysTsazwipiyH9rvMMZwEKmjWLm+fdbox9Vsuu7+cBhzhsrMzO70Jbs+f0rtDZncX6eWvjcmeFH8JlXA2grI8mT1wUbSFIJodLUBQ7A0T/l2LpLbqnEeNzyR+APipBAcOg/kPOmo4BcbkjlwC+JxjJsKfp0YWbdHaLJk8uwwAH8HZgj0LAr9gkFSjGKkSDNf4Ladvjt3G0UZUldx8OIgAvtaeUnVNzjQsHF3Wy6VFYMGWjLNxo8INAnpnQFL9tbXkrZELbeJj1Q+ySr1KCJH5GJPP8ne5es/hWHgMlWxZl+GXRwRXH57QTfMotQon6kF1r47yRROSdx5MjM1mICj0Kx2HaFEcxV3NZCZLtP59QMtml2F+v4WLlup6G9g6CrcFBivMZv4SrlX1ZqE5/hNe7JgfMLHghWisF/Cz2521TOBwwWqoU8h4bL7CdAr1pYEXyp9Yup2ozhewXyAB//wBd2lwN9mvTZj/PaVczrXz4WLjljGUCn96hp5cvGbSmWOp5DD8fxRn41tls6J4V6W2VIMONvFcAscoD7wc9TAZQNwPc8oUW8DXfw0+34YxpmU9Z4ZfxZud8geecx9g0+q1rpXQXQrmyVDEarRVmqYxsOB7+/fv5CF9LaWRL1sHZSAsG3K57iFh9mM/0oJMcXcxj85d4rgFNF7Xhx9xjyJNqZSKFTzrxtMO41w0E8WUPHZbHskPrh2pSXu7kIRAvFs6qWefnzcOEk3pMMVoji+odGnh6PsBq6cNkFEwiH549hrSNdMaxbQ3dwz0t++XK6b9Omz3rFAmiG3MEvClBQw6NjY3wmX0rghfXDwaAMjOUmEQXyx3zm8u5s1GiDCzlU9rUTn4P3uqCkdAlJxG
+    properties :
+     x : 824
+     y : 105
+     width : 68
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Remplit le planning de zéro (déroule toute les "ruptures")
+         RemplitPlanning()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_EnrouleTout
+    identifier : 0x219de72810fee9e3
+    internal_properties : CAAAAAgAAACVDxLaLt0HwCAPgym3I9aqVZFHzne5t5VF4/nliBNuD1Bq+QlaRB2iwiWl32TJA1DcfsiU56EGcJ6aIs3ax185IEnQ0y4XdlAFY2TPc1nOBoRKRi1RFILZB+8otAARuAHXSvl9ty0QtoWnhx7Nk31wVuYm/xgImd2txk8pFp9Chqd6/Eb05Un3qB4ojeYkhgtuLPdxLE9momlMnyk2nwd58kFMnUtbZVauxfRuGu75JCOsUe2I33jTfW1d9q+iGEFoZHkY5yuYSCU6lptXrytOQyhiq+oLGugewurEurFu+kEWwRps0Glq3aSM06sLvh/0beeYGCGvtl6SpSagMHZeEAQupinIr+Fbq+w9zNTEeGdllQYpiRp7YlyKpCnwWj1rimAE9wviCC+eJIhIH1+788fsD7Ys30OwJTl2QwfmYXzB66SrarwKBp6ilqonUWj0D22NEP7heC4LZ0luh+9WjX7XtHz9bw3PYYhgxJUT4V3uY52wtqAKlkYrPElkKt6DUclVmgdQy/caJ+ZuzMO8o9IlPvVsxpfICpmhqxKmYVQUrKrzgAwJLkA8qgk/j1vzvI+aq2BslSxDNPFWGOEciO6K03HeMBpgk/ojmHUf7mL6j8ALeM1wbHVwQqmEJ+TPLj2Ig4vKGcTY5KrtSYma6PR6GCYS9RRQQD8cx2/yj9EXhBitRLmO9ymFXAGF4XhOFSCDQ8ztPT+pOzeGwc4U65kOB0UwTX/+lOeCJqQak8zL1kTb5qB79yf+RpcWnvPFqgIzSwrUdbqifCTu7HO0n/hI5e8FTvwG2NkPy5zfrJDYQs3Z85GnkCK9HwOOwJbeAN/akftd45CoQ9trbHW9yiUk6uUEcfYHTwYlPEMtVmojXCQJ6Fb09CDdl4/upld7l/8FW6T7LkOwQRBB7Y5QAhxlgsRy9+hIQOVZNXjC
+    properties :
+     x : 153
+     y : 590
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Enroule toutes les "ruptures" du champ Planning
+         PlanningEnrouletout(PLN_PlanningRupture..nomcomplet)
+         // /!\ Attention : il faut absolument reconstruire le planning
+         RemplitPlanning()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_DérouleTout
+    identifier : 0x219de741112f4e9e
+    internal_properties : CAAAAAgAAABuspVtahoku1eeCqwsvGWLvMC8ccbE7sLWXMunjoWIKVpUI5tsWiewFL+3MSKLDbImEPpmYT+IrvCsVBfgaTqnuALH7N1rG1+XJKsRaviMD70E7qqGnCZRMOQbONcviUBNVhsh9R/cnUv/ApI0/oK/A9UY/ssV3UMunXb/m85FBCeLDDSSWo3m6ED8AHbh53FOx3PP0tqRg+FSbH2Yh+1n2nOwq+W3RQC0o64+dAarQiMi8ce+J1yJzx+TwsXevgcgrjWevVP05gcE3PMpH+3s+36KzVy/ahYEyOjclAGoRBXQNcimTNmUgwqiI8WrvAE0IyeSFuFz3OB0F7p+ZFikREbOUH/Yky+N3TINBoyO0mPv9fA/CdbZ2CoYJKt48GejPESK5RMOov3cYjDSn20pOxV8YSxEaxUCZ4t6ieMsr4wje24tnjQM7ESUtrQ/LyYwSUnzVj5ljvjl0TFQr+0JXlk6wQViwAY0gKeDd76+8Hqdqrals6Fn+43S30yZta3gIABuS+wRbJThfk3FUVqXnN0wEzote8QloRC09tNVlGkbq6sMjf3CV6OvPbyU5hYMRwKHwJV9ni0mN3QpDegvLX0ZtJrzYT9F4mmqxyLOee8JnqE09S49MeznSbiJDg9oQYidoCxvTsm34y0QalTJuTfNReMHxqllLx7/mrgpSmq6JxWe3V7fxOjUA9CyGNO79Mf8sDk+7uRQUt619tFjKEjdBGNYrbCcY8IVQS6yN6/HmPvk8zsfZaCf4yx8EmuumnMaF0cEnXzLSPV3fsyg9LJbMlvp/IUxSVjOHiFSardJCGNqY5SI8WWx1iTvQIdjFsZdLzZEm89n+3yF9UzoEOMSvP96w2C1DZTP/sn33JDJMi4rhgAG0i7rOVHkqHUZNdXPVUR5pjNSg9AJwbwYeqTlAkj8g14yfKDmusN5
+    properties :
+     x : 239
+     y : 590
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Déroule toutes les "ruptures" du champ Planning
+         PlanningDérouleTout(PLN_PlanningRupture..NomComplet)
+         // /!\ Attention : il faut absolument reconstruire le planning
+         RemplitPlanning()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Enroule
+    identifier : 0x219de762116ecfee
+    internal_properties : CAAAAAgAAABugWcgRc3Q2jiX02dx5pOfota7E8dbwojPJX97q6LbGrsSNgVLh8RmCuIP9Vo1LkU62fDt9DP0xVu5dpNsMK0TaS0zdvzCU4EYQ5HTIRckogpuRyT5zxSVIYzCpXPUnD0lDCCmXC2Dw9wn83TlifVJPyQyWiAVxIsJFaHTSJDW+rnsk2uPVRkHzwYMBIuXYI4n1SqMGeQXKVurK7Ker5IEikmRbs7Q5BJmP0fTugzwxTmZ6+M3RMpmqxw2Uaz0kXmh50hre9z2VlsLkJ50187yxttMBWmlUAxzI0NKodRY/SYSkiCuo8Xt5d30scfeC3gnMHe5qsfNjqvcP3quaQloGmgcrkgieZ6hD2lVNB2ze0RTImiDwhlWA5dFNHnOJpDL3HA8AIyvEkvyvFALLwYmG7gYmO3yNQaKZq2PiKXHBG98kX33E6RZxI2c9rO9cr9JmUSmvzx7N3vo70JzJZR4ABJwcZBWMd+lytDIkLKf6h4N0Rx1depqnl/3oOHnJic40jkuNcyGD7vlRdAs812RzLX1cZoP0tHOw2HXpRtmTlEp7EPK9fTBJkOyTvl0Jao+Ta/h9NVmY1Yyov/gJzV9QWnEWpLV0iowXngzzBZvNRVT22O8dSPWphwIALtjhe/u8ZNnHKiMyfwL2Exr5FXziTGCoVWRxfjMg0/e5XhaHN52rNGw49WcQTA90jtUOflPWg66vD25ObMSQWcySNDHykxkOqYbja1A3XFoyN/pzuaRORgllk04Agkjj+p1TsaZ+X1MI3Hs1C1y61r8Q64UPFf6CShl0Ih7HaQUQUWiuKCLyFtjtV6kTgGtKlD8WHlIhz269T+87ZrWZFcMUPdcUSuI3kosW/jvwaukwFCLiRWdS9rRYmY+qcLyIR0OE3s5Ebk2i11BgYJUxQBYBTTMUf+50ZzN/QDgn7jhXAxguq5ZsWiEmCXYNmfv
+    properties :
+     x : 325
+     y : 590
+     width : 154
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Enroule la "rupture" du groupe "Commercial"
+         PlanningEnroule(PLN_PlanningRupture..nomcomplet, "G"+ESC+2)
+         // /!\ Attention : il faut absolument reconstruire le planning
+         RemplitPlanning()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Déroule
+    identifier : 0x219de78611945a23
+    internal_properties : CAAAAAgAAADXEnpuEvT887c1JWzALUW2+9hYIVYL6QaRIuibG9hl636TV00FblryzdVTLB9BFvYxA8FNlJxjebwDrNRpafFtDKaHcOb32sNNscIlB3DwlQXTM+k//sj/YpqqjlA0Px2ZLu5b38bKEkqwMDIurrGfjVg4nUw2oL2qyjd5lANEuGvFHkdVqeU5+DzrCxnNmzhEPTjgtZCGPTs7GPt+/SsUyq+FExVrBLhqOpZdzyq6Ez1sHUjfZ6DCbypDl5cegOJWvDEC3KvRXsSCXrB6Yo/v5BX8oyI7j6vPty1gOtg9r6q/s+eNKXeEnWOeug8gQ542X5AFFSjoTcs1XRjPQuM7Olmt/dkaR7QeK6ulbKQ+7sJq8qWHFKYvnafKs4vK11ovCTcjJP7OApMEd4lqTuWJnpgNl2OEXukeYAGiSBhd5HERSiPCKgvlCkuX2CvclIZZt2rbIkcZ12a6YD3RWD1NvRBEHIMdj4YfQqc9NC+NqFL2vBX12oYrVmmY/WPUis+yZ4BfdWvkGCFtCAmiLmt/hOLGAjgYnFy65WogO7huwmdqsyxOXJzCdMfhF0vfGZKYxliguGySMChGcfCERO0BTzj7gbaIrsvwvBn4tn1bfSMgbP7kFrExRAxxxQ1yB5F6AObqCmuI5nabQfNFR0Wn9zz59q+C9f2QAdZ5N3n4ypq5LVZ0lsPXFSpw8+1/9ZkRvyn35tqN3rdM1MJuy/hTyKVR19yuwzVwus8CaYTCqtRETCqEJDLK4agFxRXN+SofDEu4iPvAMAx/QUei0jWuumEKqLBrmu71ucNDK1omoDqsIdJdIuRPVC2cYeaJdg/wDPRzeTpkPgiKW6WLHgQJqiFW5Bs6blgNjfoESwNVBRqJVvUf2541wdxj+V//q8/KeSe2QgmVgmBhNHVF6VGi6PdtlybUFLKhN+gfS0jKNfCPm8ZHZy9+VQMRjg==
+    properties :
+     x : 485
+     y : 590
+     width : 154
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Enroule la "rupture" du groupe "Commercial"
+         Planningderoule(PLN_PlanningRupture..nomcomplet, "G"+ESC+2)
+         // /!\ Attention : il faut absolument reconstruire le planning
+         RemplitPlanning()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_Déroulé
+    identifier : 0x219df40e20474e61
+    internal_properties : CAAAAAgAAAAxHydSF53euP3uWiw9huooJJP0NpgOyFmDk4fcc3TPzdVlXOYUny++ID3J9Uht9Ctxc6McNq4QCmMfCJVqI9vUJYd2ze9p/sVLE+DVU7Xc3B1CWUStT3rQ82D4aGnDGM+ejxU3b7vNPvB6Q9xgWgXuY/Wmf1Om7O/XO31aXQCMj9aeDkxxc9zZVF1twkNVm5ngaJU7cXHbquzIaJ29YhdsIl7rNqMdZ3QWrq/57IVWcOmUvbizE5sD55K7Zlf2natSzP7yX3mrVceTCBlpE2zz3MhhBfBZjEsxXrA7YsX3oSL34P3MOn/TRAjqHsiY6z8h+LNv4Q0BL//w/7DHLGJl3bAdGvBJF57cyv7RbKsjpHJnTkU54t6X0ThuGavF4XS8iYXWoPRa9NIHonDGt1B9sPkBeSxBkqAleo8DS6eGgvsLdpXnIqolwdreKHzfR5SuARocKJUmDZL5xxuX/cW5nNoLc3I1/qiEPKD0kWrxiPueqrp90zFVoCnst4HE7WbxIP9KFjHHEsgjemwRx3arP4Bbe7nOesTl/rOJreXoxAd96uti9k8IaJekNitqbgkrCWHGblk2QLOA6bCqm1l7/BNjQ5j50pjXTSZOVsHm/rA5w2GCIqfulCDQViZFXyYscbSc1HsuakrFykfUXTca2nUxzKuJXAhBoFHoyllkG+BNBVqgCCueWsDj8EVoewrZzQDPYlsptLSqtgTFWW9wnklCQEnJt4YPuNDBtAMfa9GXOxbE0w==
+    properties :
+     x : 844
+     y : 81
+     width : 18
+     height : 18
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Enroulé
+    identifier : 0x219df40e204b4e71
+    internal_properties : CAAAAAgAAABipRHGsPkaf5xrYLnr4ND7SKz3BpVG8KHTl4FkTy82A0S/t1Efb++mSRczp5KBM3IDLSJdpCimHhd+9m3rEPlihmSDUiCATw5fjLAai6VI0gBl6NGBnGQnYo8/emyJVTz8rfzd30axoAF/0cHt0Lxf4mCxfjRUfnsin5t9B764oHzQnmLHo1vzUK8ROtV4nDa4VAGp82dxfS8nWD/W/XFGnQuYCffyveVYJFA66UgGZFDIJsJ6CdeTF0bti8xO0SK0OG3vDaiGliVdS3chkoMo53KReuvRabRXDxm+qhIj+hhmftSpxM+3Z3tnKYdsdhUK+nNysCmQNM4BxWgZgluKks70/wBCbklX2XQfvWSFYVepmmSKyqL8HWzzT3npVpjvf2JvArynAkVel0q4g99Z2wFKSjLZeVhEhQYZZkXK4cG8Y9DIC+gQFboY2xEKQz9mZZWXaoepYZlsnKsDT9x1B+jKDpjL0bwxhZ/0tz7ossiu0e0XhSS7LEi85te1lAnq/gz9GXKoYXxGtt21ULsk6mVMRtS5oh7FLHHyMbLEF2wua4+9GpmemmXCKxg/44+gMRxd/OO43VeJm0kPfjAJiOAXRCDjWTQGCOXW0r6kET+EhZOTmKMtVZXndNqSFX3gUKRtmofHSCHo7VQ+s5Lsum0iHE7Dr75YRPXFQ0rezlMM6aGiuvZ3j0tM9neeNnrJ80jPnsTa4sJxF0sUPLBfp5BaVmEyv5MKkLUcJxCV4C9fGfFF
+    properties :
+     x : 823
+     y : 81
+     width : 18
+     height : 18
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : PLN_PlanningRupture
+    identifier : 0x219df40e204f4e71
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 91
+     width : 772
+     height : 485
+    type : 80
+    code_elements :
+     type_code : 112
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE AvantCréation(rdvCréé est un RendezVous)
+         
+         // Mémorise le rendez-vous qui vient d'être créé
+         // (s'il est déplacé sur une ressource "rupture", il faudra le repositionner)
+         gRDVTemp = rdvCréé
+         
+         // Mémorise le rendez-vous
+         hraz(TACHE)
+         TACHE.DATEDEBUT = rdvCréé..DateDébut
+         TACHE.datefin = rdvCréé..datefin
+         TACHE.LIBTACHE = rdvCréé..Titre
+         TACHE.IDPERSONNE = extraitchaine(rdvCréé..Ressource, 2, ESC)
+         si hajoute(tache) = faux ALORS
+         	Erreur("Impossible de mémoriser le rendez-vous en base", herreurinfo(herrmessage))
+         	renvoyer faux
+         FIN
+         
+         // Mémorise l'identifiant du rendez-vous
+         rdvCréé..Id = tache.IDTACHE
+         
+         // Modifie la catégorie
+         hlitrecherchepremier(PERSONNE, IDPERSONNE, ExtraitChaîne(rdvCréé..Ressource, 2, ESC))
+         si htrouve(personne)
+         	rdvCréé..Catégorie = personne.idgroupe
+         Fin
+         
+         renvoyer vrai
+        type : 135
+      -
+        code : |1+
+         PROCEDURE EntréeEnSaisie(rdvEdité est un RendezVous)
+         
+        type : 136
+      -
+        code : |1-
+         PROCEDURE SortieDeSaisie(rdvModifié est un RendezVous)
+         
+         // Recherche le rendez-vous en base
+         hlitrecherchepremier(TACHE, IDTACHE, rdvModifié..id)
+         si htrouve(tache) ALORS
+         	// Modifie le titre du rendez-vous
+         	tache.LIBTACHE = rdvModifié..titre
+         	si hmodifie(tache) = faux ALORS
+         		Erreur("Impossible de modifier le titre du rendez-vous en base", HErreurInfo(hErrMessage))
+         		RENVOYER Faux
+         	FIN
+         SINON
+         	renvoyer faux
+         FIN
+         
+         RENVOYER Vrai
+        type : 137
+      -
+        code : |1+
+         PROCEDURE Sélection(rdvSélectionné est un RendezVous)
+         
+         // Mémorise le rendez-vous sélectionné
+         // (s'il est déplacé sur une ressource "rupture", il faudra le repositionner)
+         gRDVTemp = rdvSélectionné
+        type : 130
+      -
+        code : |1+
+         PROCEDURE Déplacement(rdvDéplacé est un RendezVous)
+         
+         // Mémorise le rendez-vous déplacé
+         // (s'il est déplacé sur une ressource "rupture", il faudra le repositionner)
+         gRDVTemp = rdvDéplacé
+        type : 131
+      -
+        code : |1+
+         PROCEDURE Redimensionnement(rdvRedimensionné est un RendezVous)
+         
+         // Mémorise le rendez-vous redimensionné
+         // (s'il est déplacé sur une ressource "rupture", il faudra le repositionner)
+         gRDVTemp = rdvRedimensionné
+        type : 132
+      -
+        code : |1-
+         PROCEDURE Suppression(rdvSupprimé est un RendezVous)
+         
+         // Confirmation
+         SI Dialogue("Voulez-vous vraiment supprimer ce rendez-vous ?", ["Oui - Supprimer","Non"], 1, 2, dlgIcôneQuestion) = 2 ALORS renvoyer faux
+         
+         // Recherche l'enregistrement en base
+         HLitRecherchePremier(TACHE, IDTACHE, rdvSupprimé..ID)
+         SI HTrouve(TACHE) ALORS
+         	// Supprime ce rendez-vous
+         	SI hsupprime(TACHE) = Faux ALORS
+         		Erreur("Impossible de supprimer ce rendez-vous en base", HErreurInfo(hErrMessage))
+         		RENVOYER Faux
+         	FIN
+         SINON
+         	// Enregistrement non trouvé
+         	erreur("Impossible de retrouver ce rendez-vous en base")
+         	RENVOYER Faux
+         FIN
+         
+         renvoyer vrai
+        type : 134
+      -
+        code : |1-
+         
+        type : 133
+      -
+        code : |1+
+         PROCEDURE DéplacementRessource(rdvRessourceDéplacé est un RendezVous)
+         
+         // Si le rendez-vous est déplacé sur une ligne de "rupture"
+         SI PlanningEtatRessource(moimeme..nomcomplet, rdvRessourceDéplacé..Ressource) <> resserreur ALORS
+         	
+         	// Repositionne le rendez-vous dans sa période d'origine, pour sa ressource d'origine
+         	rdvRessourceDéplacé..Ressource 	= gRDVTemp..Ressource
+         	rdvRessourceDéplacé..DateDébut 	= gRDVTemp..DateDébut
+         	rdvRessourceDéplacé..DateFin 	= gRDVTemp..DateFin
+         
+         FIN
+        type : 139
+      -
+        code : |1-
+         
+        type : 176
+      -
+        code : |1+
+         // Bouton gauche relâché = fin de déplacement
+         gbDeplacementEnCours = Faux
+        type : 152
+      -
+        code : |1-
+         
+         // GESTION DU CURSEUR
+         
+         // Récupère l'identifiant de la ressource survolée
+         sIdRessource est une chaine = PlanningInfoXY(MoiMême, plnRessource, SourisPosX(), SourisPosY())
+         selon PlanningEtatRessource(MoiMême..NomComplet, sIdRessource)
+         	
+         	// Il s'agit d'un groupe  ("rupture")
+         	CAS ressEnroulée, ressDéroulée	
+         		
+         		// Empêche la sélection de période
+         		MoiMême..SélectionPériode = Faux
+         		
+         		// Si le clic gauche est enfoncé
+         		SI gbDeplacementEnCours ALORS
+         			
+         			// Change le curseur en curseur interdit
+         			MoiMême..CurseurSouris = curInterdit
+         			
+         		SINON
+         			
+         			// Si le survol est sur la zone de ressource (à gauche)
+         			SI SourisPosX() <= gnLargeurRessource _ET_ SourisPosY() > gnHauteurJour ALORS
+         				
+         				// Positionne le curseur main (pour indiquer qu'un clic est possible
+         				MoiMême..CurseurSouris = curMainSystème
+         				
+         			SINON // Si le survol et sur la zone des rendez-vous
+         				
+         				// Positionne le curseur par défaut
+         				MoiMême..CurseurSouris = curFlèche
+         				
+         			FIN
+         			
+         		FIN
+         		
+         	// Il s'agit d'une personne (ressource "non rupture")
+         	CAS ressErreur
+         		
+         		// Active la sélection de période
+         		MoiMême..SélectionPériode = Vrai
+         		
+         		// Si le survol est sur la zone de ressource (à gauche)
+         		SI SourisPosX() <= gnLargeurRessource _ET_ SourisPosY() > gnHauteurJour ALORS
+         			
+         			// Positionne le curseur main (pour indiquer qu'un clic est possible
+         			MoiMême..CurseurSouris = curMainSystème
+         			
+         		SINON // Si le survol et sur la zone des rendez-vous
+         			
+         			// Positionne le curseur par défaut
+         			MoiMême..CurseurSouris = curFlèche
+         			
+         		FIN
+         		
+         	autres cas
+         		
+         FIN
+        type : 66048
+      -
+        internal_properties : CAAAAAgAAACbXULZSXZuNo9Mn5rEj3BJA12MnOiN45vPMjMgCNXPz9FcbjhzkNFN2INDFEhmHX5XOrpQYNQSxN5dCP3wQM5kbZE0u/W8yJgkjqIcpuLoOouJ+NOqezZHAMitxOeRJ5SV1adRUqsaAvTGZzw=
+        code : |1+
+         
+         // Bouton gauche enfoncé = un déplacement est en cours
+         gbDeplacementEnCours = vrai
+         
+         // Récupère l'identifiant (glien) de la ressource cliquée
+         sIDRessource est une chaine = PlanningInfoXY(MoiMême, plnRessource, SourisPosX(), SourisPosY())
+         
+         // Si le clic est réalisé sur la zone de ressource
+         si SourisPosX() <= gnLargeurRessource _et_ SourisPosY() > gnHauteurJour ALORS
+         	
+         	// Selon le type de ressource (rupture ou non) et l'état d'enroulement
+         	SELON PlanningEtatRessource(MoiMême..NomComplet, sIDRessource)
+         	
+         		// Il s'agit d'un groupe  ("rupture")
+         		CAS ressEnroulée, ressDéroulée
+         			// Inverse l'état d'enroulement
+         			PlanningInverseEtatRessource(PLN_PlanningRupture..NomComplet, sIDRessource)
+         
+         			// Mémorise la ressource actuellement affichée (pour repositionner le planning dessus)
+         			gsRessourceAffichée = PlanningPositionRessource(PLN_PlanningRupture)
+         			
+         			// Remplit à nouveau le planning
+         			RemplitPlanning()
+         			
+         		// Il s'agit d'une personne (ressource "non rupture")
+         		CAS ressErreur
+         			
+         			// Recherche la personne
+         			hlitrecherchepremier(personne, IDPERSONNE, extraitchaine(sIDRessource, 2, ESC))
+         			si htrouve(personne) ALORS
+         				
+         				// Affiche le numéro de téléphone de la personne
+         				Info(personne.NOM +RC+ "Tél : "+personne.TELEPHONE)
+         				
+         			FIN
+         			
+         	FIN
+         	
+         FIN
+        type : 66049
+      -
+        code : |1+
+         // Bouton gauche relâché = fin de déplacement
+         gbDeplacementEnCours = faux
+         
+         // Positionne le curseur par défaut
+         MoiMême..CurseurSouris = curFlèche
+        type : 66050
+  -
+    name : BTN_Fermer
+    identifier : 0x219e121f07f2bfdb
+    internal_properties : CAAAAAgAAACoX8DlRNAvQZULb0Wj6mWirslIV3Dt/6zdJYiyhiGGrd1kG8SnrOuo1DydrgGi7JVLL44M7nqwn3glgCAXSEohenIPdjBsasYyznEIogTbo0ZSSknxbMh8cbuqD9E+nAftBMvBm6QlfuzZeeen0d5N96M8FZsHvzp/OJyrhuLb3oKqNItQYtQ9YvNCuEASnFUh92ihbokmuJ3WKxNY8mNM97WESdpj3yuvd2ygrAWIoJVC9AT3YC5xzh46g95CRC+VkEqnZRYlwUUr+PHalNThdRAQV4meXs2C+eazUnDLbeGfDoX0pYNf0x4FziQFF/eJJTZl9T81+lIDA8EFIkjef1nY0C8TLM+p2minBPhSXYvoa5ze4LWOj23xYybCA0CvNaGG3UyPivzAYnImIGAQ24u7Vof+gFD+/LaNbEWCYkJq0CNFSMdfoVgj59kTi9UKgBhlusbgW6jXOpRDFfTHLnhkUQmYcnSpHn6uhVgTCo5q0mo+9RP4Po8GgkIT2M3Wxz4z6Z+OVBtW7MsXdcUZFsQmhm1HdwL5d9p6rFwLK2z1x+QzEjynNYPz7vYzPCnjd3w2nolmcwflOZBte2QwHeaWe5aLMnk3WgkmfpZXal2n0EqEYBgtCy6zLpVS3wdmQAa+N5Ux6psqKt+U24Xg0rojiSQxzjfI0m2upTluJwqAxWKbi8zq9TzPx3jB6PQVctDhjC6lbfMUe+h/1pXSI8vjrSHNGfFV+isWg9ca2hNYnlgCm1Gw4/dg9w7foEh50R104n/TYoKB1MVU+mHcstLh46W3O7D8iaVPBsq0ZtNrgi3vjulbTT+/12Z68V2ZutwHeMLQue8JKD/AlTVNHoxwC0qyflxocyLTu6gSjNXkIFQfuJ7Zz+3NJif44VrTTvnqAUctHvfBC4tdxlPZp0iFQg4yP+SUtAig7WhFOY66AssKojDWmX2coZEmQm7lKhdBddXePsGyZXGv6k2lpA==
+    properties :
+     x : 698
+     y : 590
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : INT_CouleurRupture
+    identifier : 0x21a4c90b0a441bfc
+    internal_properties : CAAAAAgAAACh+JGFONpkdzvu7W1gloWjrzxGa3tXN1szZzcUgSeaSrfX/zP/1O3Qx2m+i1QwgfHBOWAvtClKoco6by8vTg7w5QUBqFQdEFGl2gqmdeIEsuHx67rO5miuk4jst6inULxmWtvINtmJd/42AuRsinwGI9lDyHQrXTZWipfgTt1Vl+HnM9ZPsxRH05NtfpfMV82i5Ko87ejODXVigJFW2k3GgtcpzPR/jQC4BDnmK+6Lv48HlN+FcnzTnS/nIG14KSZDwL/4JZNxnBAALpKp92v+Yo/V1JP2SnCLekeHlFtPvAwH8/sOKzbcKJ4bpYlv/6tW3+CT7p2thy2wl+rbNo2VUCT5ET29W0vMtFRS+PgQ6PU5po7kqiZGKKmrthkMpAmBmMBu2Oq4PoWZfj3TvCl+RWHBTPtLwOYN5Hn9+ToA+O/piWiCsen/6+OEjsny9QX9I8bE4oA1i04UQytSZE9c4OW/7UmT/WusttepnrmmLHe5xE/gA3KDGmPUDxGcOLf9x6XlAwd1Q7T+YfgyB4gpiWq6Xy6SXZHCOFTxXEvFSEsucMz2RXB+xWJhNpSfW8hIOhMXU3Vw48aYqHbOiS6vPrsltrKb1svWciJ2XNmVuJHB3oZGBx/Ew/YtOPCo2ciIim9aC3UdhbNijt5eDxspBujC+cMH135TLIrE+fVurB7Hi+OHK4KvnB/qShIc2tw6X7cy7sZggh2FFtkjp58LSUh7Tlx/9YEH2kTmA4SUsi21rEdsT5v7HmldcmoIAjv1xXRYuPtBpsthWym6YSQyK307k4fqKSOdfKFBEM0q4o2SMozb0ROZCzSjv+dTcyPE58uW2cNClIcKR8coIGZFtfM1qadju1HJW12SQ1YQXQbraXkxHDfSLvwAsCPTmZ58tDxl9gfNSS0QvPQ3QRNOy13AjFxSOBULQr/0+WoV4J4r0UayYeYcasKJK4xS76ndp+3lFwyNz1JI2fKgdKOyXLinVFnblu9edlXfhzm9JcSFyzE5mIHpKVSCC5ap8gT4Mzn2Sq1QdoNyaHDAQcXbTuE0rq2Qj8KUxY+v+pv5y0mJ19fQHcs0UyyTomfhGbRcbTVhXmqkq7nXXAbq14EsF/4kG6wECSGGpD6cNcUB+2bWLieg1MssSWUEDWF6Io+tzJfqVrKuM6HkfHfJYpdEnkvXiyUEHqntwGK5GYGl/oW/aZeWPQ==
+    properties :
+     x : 123
+     y : 62
+     width : 188
+     height : 24
+    options :
+     -
+       internal_properties : CAAAAAgAAAAzRLNKhhyLYXffn0i96wzbPK/N5ORQwVXwhVa8KDC4sXe51kfoaHF/Zl3FbbX7sRsK9CPMmMB3Iq+t0Fl5woKXqaYqhXcWAK9w3HDFEsgAdPN7Z5O6QKKRWsc+KVNTIDEiRVOoXpVVIl15A0pclP/CZ4XKrdWfS5OPdXi0mdvShKfZhzG2APp7
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1-
+         // Reconstruit le planning
+         RemplitPlanning()
+        type : 17
+  -
+    name : LIB_OptionAffichage
+    identifier : 0x21a4c91c0aa15d9d
+    internal_properties : CAAAAAgAAACVw7my0cUzmkcE2xNwk5uIm+paQ5f9Z8l1DJEbiC0zfrW8HEYxO/Gjt11H0icjgwznwEbwmq21IKA4YoLRrua5qO0RJOhsaFIi/lUm4Av68hWZoxhpGBYO1+puQCgZJ1gCb0QTgp+BwSH69v1M4cSWC+0XehQ/XSg55yAsNdvZv8Rsqx1nLRm5OF4yJpAPokDe2tHeoeAOG4+epLApUAjn15W8YMvqJeQrGGvzETBcWmkf6XJOmMEjIy7gaAa3l17tBM2kmSdmEi501m6oMsnKK70nl9Gx5xEpUTuVyrjUkF8x4nTYtMLoqmfrfbqZYjpltgyXgDDLqHi5j1E/MEAxiN+fTJLsvkbICz00H1HjhkL9uCxVkwPtIOnafeHF8wp4h3UthlAhIl4gZ914XhINJrUaNM09sXlMOqiI+I+1KP9TMrHdg+gdqkWYl01GWDUGAPFh72pY7vNGFS5WvnezGtVfNBIsRdIUGhZ0XSHS41vCU26AoOD0sEBmetsulUB9pJDCKiGElQ==
+    properties :
+     x : 6
+     y : 67
+     width : 122
+     height : 15
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Action
+    identifier : 0x21a4c94c0b331b31
+    internal_properties : CAAAAAgAAAD3ocFQ11SW1RQxOASkxtz+C1/Ot9/W71VRXMtZbO4eWDtkMoKvFC1X7IiHt+BEPwPfnT5F0DDgQ/lU5O1Psmxcs2LH3Ta1wrqwDyyG/RWV2fcfX+82ivT+Us1fZqqb1pwzY50rr9nT6Kl6Ce5IhXfhHIcrKfHUqnyRsfzJ8gsnF+Csr5BsJLiZ0W4sgeTBKBmVNKkJiOkeuvGzZindmkZ2P0+i8Ft+HcBuRlKpCkYiA5pFaCXOBbPMx0pA5DID6zZdwMlY2/V85LjevAjiHAcAuoTVwZhr1a6vLQlGXdzG2Q6Aj8ODmaf13O2tdVcIqlAqySoYNnLLQ26PPWkeyUv1DiTNM9KM4sLoeYOtXzkt1ASyErW9oSGakBi/mE9mRMmgM62Ah2AFvzXYAc0Wxt55aI88EbGvXxd/TvKpyTUK80qGcDXYOCLeKNNwf9DHy3WHJjBGSR69qUWAeooXcyPA1ZiPBKQy5Trk+7osnwGIM41WlLWAielEzTHTYrtK6xCvhpxWhn/mdw==
+    properties :
+     x : 6
+     y : 595
+     width : 141
+     height : 15
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : FRM_SansNom1
+    identifier : 0x21a4c96c0b7a9540
+    internal_properties : CAAAAAgAAAAWhyOe4Opmz4E0lcVq1kYCR/a8IYqq4RZFPt2SWrlrs8fQcJ6885oaOCr6MfCZQP8P0uEuIJv0Mtpy+q9HyufgGPiAf854R2WLtw2Uy0JMKtrHC2REKUnB9YNGr0NG/DDv58hfDl612by5K2q6wTO6jZLQFErS7zIcu7Og733hwZf9HVMrw3uoB8wpC8eB3H+WeedBWAfmURn3Ysl7YYutSgGSgwCMOxVmKFoTBe5czXGaEkQ3PACUSI0l3JWba2/tAMqu9BJUeO11+xLvXFYLtoLK3wiKAqG6vJeruCJl3RCsGsNhEPzclfB3p2le4Sd312tqW/Co5lNwEB9AB0mqBamkSAtakmFmaZa0drIcg8io825dwuUZiPHjw8eoOfo=
+    properties :
+     x : 6
+     y : 582
+     width : 772
+     height : 2
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : LIB_Explications
+    identifier : 0x243bdeb10229c6d7
+    internal_properties : CAAAAAgAAACGbW6CxlFU2qBcmg9b7BqQEb3GrkcXoeoexIv9FbF5cus/tbPNfM5VF0rtakx+otv8LCR0l0I+qzdy1plFyoFW0K/Gj8WfPwTFj6aKjW16o7Rvou2Y1m3v8zb06FMyXEGwJLAB7JExr3/bxP4likmv1hJ+8ULNZADwVWVDiLYPkV9VtJsOoM7x9hD68WxELvbICVHL3aFfRy1a0Le17bBeoLxXiRI76fxPT/2FRuQa7xG6OHCJ7i2+rhzpDsAia1zoIPuLs5QgKGHbwYsYtMNyhqAiBaCGGhDpEAG4+Z3hx3O1aREXpsPAoeju2OR1/vY0UiSk9I4VN60yoBK7M3w8QeYMoSkFxv37zG736WDYXI6WsMhC7prbZ+JTzgoMHAQ1W/H759wKXKuDue+fcCkIOzloSUHJ/S6b0CoCoUm8Gu+YDEtNN06JVnDlrLBajaWfb7NP60T+W55SiqY9AjSJHjL4AE004UahPnSoYrLjlVxk2k2rrBXRX3XZl+8FAzt58+KPJ68ucaxCzDRTyzo6kqXoKrt1lALqIUvpwWh+0DvdW/mbeuo8Ry0+aZV7gKkfFNTQTEh7yfT/VTjOfvjQn2gErGRFVIpZ9zDTB125Q5Ica2yFTMNKPRtAQArGM/U0aIDQ+TOtYkfzHe9/qjQ+/g0IrKGunrNHzsBuu0h9V6+o1XfY6vf7HivGlJW86Y0ZPcHYLWKVaf0sT0+7lEpUjbUhK3RTyj7qJxmFr94a+JOU1ye3l5T59OoGp0zePWe7620XGvLdNT7q
+    properties :
+     x : 6
+     y : 6
+     width : 772
+     height : 55
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAADcUIHOtW0BhhsPfQplMyJA7c5/QZE/1ckPjA/il/S7FI3W5u+kBp+KzPCXl3OE+HeK7Od/IljP8JG0GV6dRXzhYb6ZtdwMOt60
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABPBo51W7lu9/nuC5EyClx/PEbo7umRx0Hb0GqksOfL/3gtAUHWXSvvjDckzT9i4XaXq8H/osMYY/ojQ2z1Ef/e+lYwipEWqDKSS/Wk3Hx/NrDdhMiadvh/Csv2Ioage50CvqnRU6bGzffisvlc8Suzbq073S9+Dwvq402gv+nAQw==
+     code : |1+
+      procedure FEN_Planning()
+      
+      // Etat d'une ressource "rupture"
+      EEtatRessource est une énumération
+      	ressErreur		// Ressource inexistante ou non "rupture"
+      	ressEnroulée	// Ressource déroulée
+      	ressDéroulée	// Ressource enroulée
+      FIN
+      
+      gRDVTemp				est un rendezvous		// Variable utilisée pour mémoriser les données d'un rendez-vous (en cas de déplacement impossible, le rendez-vous est repositionné avec ses données initiales)
+      gbDeplacementEnCours 	est un booleen = faux	// Vrai si un déplacement est en cours (= clic gauche enfoncé)
+      gtaEnroulementRupture 	est un tableau associatif (*, *, wlchaine) de booléens	// Définit pour chaque ressource "rupture" l'état d'enroulement (Vrai/1 = déroulé : Faux/0 = enroulé)
+      gtaRessourceFille		est un tableau associatif de chaînes
+      gsRessourceAffichée 	est une chaine			// Mémorise la ressource actuellement affichée pour repositionner le planning lors du rafraichissement
+      
+      // /!\ Attention : ces variables doivent être modifiées en fonction des paramètres du champ Planning
+      gnLargeurRessource 		est un entier = 120		// Largeur de la zone de ressource
+      gnHauteurJour 			est un entier = 80		// Hauteur de la zone de jours
+   -
+     code : |1+
+      
+      
+      // Remplit le planning
+      RemplitPlanning()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : RemplitPlanning
+     procedure_id : 1269134673872241081
+     type_code : 14
+     code : |1+
+      // Résumé : Remplit le planning
+      // Syntaxe :
+      //RemplitPlanning ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      PROCEDURE RemplitPlanning()
+      
+      sIDGroupe 				est une chaine
+      sIDPersonne 			est une chaine
+      sRessourceAffichée		est une chaine
+      
+      
+      // Stoppe l'affichage du champ (pour éviter l'effet de clignotement au remplissage)
+      PLN_PlanningRupture..AffichageActif = faux
+      
+      // Mémorise la ressource actuellement affichée (pour repositionner le planning dessus)
+      sRessourceAffichée = PlanningPositionRessource(PLN_PlanningRupture)
+      
+      // Vide le planning complètement
+      PlanningSupprimeTout(PLN_PlanningRupture)
+      
+      // Parcourt les groupes
+      POUR TOUT GROUPE SUR LIBGROUPE
+      	
+      	// Le groupe est identifié par G[ESC]<IDGROUPE>
+      	sIDGroupe = "G" +ESC+ GROUPE.IDGROUPE
+      	
+      	// Ajoute le groupe
+      	PlanningAjouteRessourceRupture(PLN_PlanningRupture..nomcomplet, gLien(sIDGroupe) + GROUPE.LIBGROUPE, (INT_CouleurRupture ? donnecouleur(groupe.idgroupe) SINON *))
+      	
+      	// Ajoute les personnes de ce groupe
+      	POUR TOUT PERSONNE SUR NOM AVEC "IDGroupe = " + GROUPE.IDGROUPE
+      		
+      		// La personne est identifiée par P[ESC]<IDPERSONNE>
+      		sIDPersonne = "P" +ESC+ PERSONNE.IDPERSONNE
+      		
+      		// Ajoute la personne
+      		PlanningAjouteRessourceFille(PLN_PlanningRupture..NomComplet, sIDGroupe, PERSONNE.NOM +RC+ gPoliceItalique(Vrai) + "("+PERSONNE.POSTE+")" + gPoliceItalique(Faux) + gLien(sIDPersonne))
+      		
+      	FIN
+      	
+      FIN
+      
+      // Parcourt les tâches
+      POUR TOUT TACHE SUR DATEDEBUT
+      	
+      	// Recherche la personne liée à la tâche
+      	HLitRecherchePremier(PERSONNE, IDPERSONNE, TACHE.IDPERSONNE)
+      	si htrouve(personne) ALORS
+      		
+      		// Ajoute le rendez-vous
+      		// /!\ Attention : la ressource ayant été ajoutée avec un gLien, c'est ce même gLien qu'il faut indiquer comme ressource pour la tâche
+      		PlanningAjouteRendezVous(PLN_PlanningRupture..nomcomplet, "P"+ESC+PERSONNE.IDPERSONNE, TACHE.LIBTACHE, TACHE.DATEDEBUT, TACHE.DATEFIN, personne.IDGROUPE)	
+      		
+      	FIN
+      	
+      FIN
+      
+      // Positionne le planning sur la dernière ressource affichée mémorisée
+      si sRessourceAffichée <> "" alors PlanningPositionRessource(PLN_PlanningRupture, sRessourceAffichée)
+      
+      // Réactive l'affichage du champ
+      PLN_PlanningRupture..AffichageActif = vrai
+     type : 458752
+   -
+     name : PlanningAjouteRendezVous
+     internal_properties : CAAAAAgAAAAdbGsBxFTFDOw6VTWd0hV1VaKjag8eQVkk6yjTIPPC/PodNnyclt0WYzniRFBtuvNxfMPZwZ0m3tLDXuKSim78hSjXHcTAC0Cvgg2lXUNg21A6o7BjIMqemNiT+x3ZXdJQRzd2epH9Iaic2pn8HpIhxzCxsy8Zr4WKh4jNFHY16eXVz3sD6R/GTpkGqg1EfUpT6N0QCis4rsMRk5xiDh9T8piVDhqNUaokqZVnlRnVstO/bI3Jyzewav/2rlp/uMdquwxy0fL8IaMU3PGUlw4UXoRuyoQpXuB2CwfLbbhgjeHMba+u5PgaTzanV5HJ4BRjV8pSW8pKWTJKz7JbDUeMKTM42uehgKgkqHQCSMva1tNrdofsCOrKiVSKDm7HmncdAF4g59CodwwW1ITfGn6nKqquJo+zRcqL6OiknOQ84Z4cRIkgup44BI01dabN+Kg4jbcQfyrWzvI9mh3OcCQtcgyAf62CR6bcHgKjF98y8Q==
+     procedure_id : 1269439083994123963
+     type_code : 14
+     group : 2
+     code : |1+
+      // Résumé : Ajoute un rendez-vous au planning
+      // Syntaxe :
+      //[ <Résultat> = ] PlanningAjouteRendezVous (<sNomChampPlanning> est chaîne, <sRessource> est chaîne, <sTitre> est chaîne, <dhDateDébut> est dateheure, <dhDateFin> est dateheure [, <vCatégorie> est variant])
+      //
+      // Paramètres :
+      //	sNomChampPlanning (chaîne ANSI) : Nom du champ planning
+      //	sRessource (chaîne ANSI) : Ressource
+      //	sTitre (chaîne ANSI) : Titre du rendez-vous
+      //	dhDateDébut (dateheure) : Date et heure de début
+      //	dhDateFin (dateheure) : Date et heure de fin
+      //	vCatégorie (variant - valeur par défaut="") : Catégorie
+      // Valeur de retour :
+      // 	entier : Indice d'ajout
+      //// Traitement automatique des erreurs : RENVOYER -1
+      //
+      
+      PROCEDURE PlanningAjouteRendezVous(LOCAL sNomChampPlanning est une chaine, LOCAL sRessource est une chaine, LOCAL sTitre est une chaine, LOCAL dhDateDébut est une dateheure, LOCAL dhDateFin est dateheure, LOCAl vCatégorie est un variant = "") : entier
+      
+      
+      // Si la ressource précisée pour le rendez-vous est une ressource fille
+      si gtaRessourceFille[sRessource]..vide = faux ALORS
+      	
+      	// Si la ressource parente est enroulée
+      	si PlanningEtatRessource(sNomChampPlanning, gtaRessourceFille[sRessource]) = ressEnroulée ALORS
+      		
+      		// Le rendez-vous ne doit pas être affiché
+      		renvoyer -1
+      
+      	FIN
+      	
+      FIN
+      
+      // Ajoute le rendez-vous
+      renvoyer WL.Planningajouterendezvous(sNomChampPlanning, sRessource, sTitre, dhDateDébut, dhDateFin, vCatégorie)
+     type : 458752
+   -
+     name : PlanningAjouteRendezVous
+     internal_properties : CAAAAAgAAAB5OxWDhTeLUZxBL7PBfpDCAmU1/utsChEiG1XW9TiyWCpTqZH/No5nfDmlVM/SZViuvuQeRsR9SSn7W35/VfpxzWIh0YS3sUOma/o9gqmBtc9QpKfQj/tfIMVebCaCtVpoUrUjeuiR97KFzVmdxwFzj7QsNjEK74z2pe5TW50Jz2oQyE2+hE9jaDKXvwgUzyLgUN9PHcLiCPRwvutj7W9vwIops66mg7Q1fdTB2ohZJ91vRpNCwJq/hO+cczvAdhAGyr3cAJAgYg2tS/+4hu5RbjgzzfoGGanh0VY6qSZ6AeJVOuhXWeTwFkjALDMum9b/yzdPpdvtsBTFek6s7AydPBzUuuIqRsffTvP8Ls0hhrp5O4jxLRDgUliRoHXzoqN1I7x80yblH6euNhQuNQz4OJB4IsF24bhootktUDXRUFiis/pG5ZrQtBxFiVIFZI1td0a1igl8TZy9hOysC82WV/TfbyBvcKfpFoR39znpdASuKHqlIPfM/2iBC05+Rqa4GMPi+dgHcJaD3IIe9iObCiS99lL45UH5CUmsvNIVoUTzCzySCKCWMTH8fsYGsyhsx45jd7cSBWJ+wAZi
+     procedure_id : 1269439083994123963
+     type_code : 14
+     group : 2
+     code : |1+
+      // Résumé : Ajoute un rendez-vous au planning
+      // Syntaxe :
+      //[ <Résultat> = ] PlanningAjouteRendezVous (<sNomChampPlanning>, <UnRendezVous> est RendezVous)
+      //
+      // Paramètres :
+      //	sNomChampPlanning : Nom du champ Planning
+      //	UnRendezVous (RendezVous) : Variable de type RendezVous décrivant les caractéristiques du rendez-vous à ajouter.
+      // Valeur de retour :
+      // 	entier : Indice d'ajout
+      //// Traitement automatique des erreurs : RENVOYER -1
+      //
+      
+      PROCEDURE PlanningAjouteRendezVous(LOCAL sNomChampPlanning, LOCAL UnRendezVous est un rendezvous)
+      
+      // Si la ressource précisée pour le rendez-vous est une ressource fille
+      SI gtaRessourceFille[UnRendezVous.Ressource]..Vide = Faux ALORS
+      	
+      	// Si la ressource parente est enroulée
+      	SI PlanningEtatRessource(sNomChampPlanning, gtaRessourceFille[UnRendezVous.Ressource]) = ressEnroulée ALORS
+      		
+      		// Le rendez-vous ne doit pas être affiché
+      		RENVOYER -1
+      		
+      	FIN
+      	
+      FIN
+      
+      // Ajoute le rendez-vous
+      RENVOYER WL.PlanningAjouteRendezVous(sNomChampPlanning, UnRendezVous)
+     type : 458753
+   -
+     name : PlanningAjouteRessourceFille
+     internal_properties : CAAAAAgAAABdQA2XJ6TIsZhQ11qLgdcRlVRngxPzYVEtgHig8MuCJRRa0mt+1nkBd6WCzFc7khJrT2fs4PF470IJmOnP8eNo24AHH2VDS3dEcOmbOavygTCGDNCNEf6dYHEYsgisEPxYOmD3nA65T9eKT+/yQJPEOkrS5scO090RSJAFtnUNwb420L1ffqwYNuF/GA==
+     procedure_id : 1269439083994189686
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Ajoute une ressource fille de rupture
+      // Syntaxe :
+      //[ <Résultat> = ] PlanningAjouteRessourceFille (<sNomChampPlanning> est chaîne, <sIDParent> est chaîne, <sRessource> est chaîne)
+      //
+      // Paramètres :
+      //	sNomChampPlanning (chaîne ANSI) : Nom complet du champ Planning
+      //	sIDParent (chaîne ANSI) : Identifiant de la ressource parent (libellé ou gLien)
+      //	sRessource (chaîne ANSI) : Ressource (libellé avec éventuellement un gLien)
+      // Valeur de retour :
+      // 	entier : Indice de la ressource 
+      //// Traitement automatique des erreurs : RENVOYER -1
+      //
+      
+      PROCEDURE PlanningAjouteRessourceFille(LOCAL sNomChampPlanning est une chaine, LOCAL sIDParent est une chaine, LOCAL sRessource est une chaine) : entier
+      
+      nIndice 	est un entier
+      sLibellé	est une chaine
+      sID			est une chaine
+      
+      
+      // Le champ Planning doit exister
+      SI ChampExiste(sNomChampPlanning) = Faux ALORS
+      	ErreurConstruit("Le champ Planning %1 n'existe pas", sNomChampPlanning)
+      	RENVOYER -1
+      FIN
+      
+      
+      // Définit le libellé et l'identifiant de la ressource (si la ressource précisée contient un gLien)
+      SI Position(sRessource, ESC+"K") > 0 ALORS
+      	
+      	// Récupère le libellé et l'identifiant (gLien) en fonction de la position du gLien
+      	SI ExtraitChaîne(sRessource, 1, ESC+"K") ~= "" ALORS
+      		// Libellé
+      		sLibellé 	= ExtraitChaîne(sRessource, 3, ESC+"K")
+      		// Identifiant
+      		sID 		= ExtraitChaîne(sRessource, 2, ESC+"K")
+      	SINON
+      		// Libellé
+      		sLibellé 	= ExtraitChaîne(sRessource, 1, ESC+"K")
+      		// Identifiant
+      		sID 		= ExtraitChaîne(sRessource, 2, ESC+"K")
+      	FIN
+      	
+      SINON // pas de gLien
+      	
+      	// Le libellé et l'identifiant sont identiques
+      	sID 		= sRessource
+      	sLibellé 	= sRessource
+      	
+      FIN
+      
+      // Mémorise pour le couple parent / fille
+      gtaRessourceFille[sID] = sIDParent
+      
+      // Si le parent est enroulé, la ressource n'est pas ajoutée au planning
+      si gtaEnroulementRupture[sIDParent] = faux alors renvoyer -1
+      
+      // Ajoute la ressource
+      nIndice = PlanningAjouteRessource(sNomChampPlanning, sRessource)
+      
+      
+      renvoyer nIndice
+     type : 458752
+   -
+     name : PlanningAjouteRessourceRupture
+     internal_properties : CAAAAAgAAAAoVc/bQjnzcncbxDbnqOrUAm5MBKP+dUJ4UhNHM1XlzYK2cXRs0nkKSZrWsykrJu+ewh0B+AkdsTuJAfzpiTr6owHe2Pn4MswTpWFxI7a4OGQmWm2KmJdg0TU1ryR4Web+tpVHBxmXhK/3BzYHqAXEe0VXqtLfJiq9Q1j8R9DomNIpJz296PDoOwVeHABkwW31CzVk0I/HYO9nb0D349fWAEZRB55udAP6Mg==
+     procedure_id : 1269439083994255284
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Ajouter une ressource "Rupture"
+      // Syntaxe :
+      //[ <Résultat> = ] PlanningAjouteRessourceRupture (<sNomChampPlanning> est chaîne, <sRessource> est chaîne [, <nCouleur> est entier])
+      //
+      // Paramètres :
+      //	sNomChampPlanning (chaîne ANSI) : Nom complet du champ Planning
+      //	sRessource (chaîne ANSI) : Ressource (libellé contenant éventuellement un gLien)
+      //	nCouleur (entier - valeur par défaut=8421504) : Couleur à appliquer à la "rupture"
+      // Valeur de retour :
+      // 	entier : Indice de la ressource ajoutée
+      //// Traitement automatique des erreurs : RENVOYER -1
+      //
+      
+      PROCEDURE PlanningAjouteRessourceRupture(LOCAL sNomChampPlanning est une chaine, LOCAL sRessource est une chaine, LOCAL nCouleur est un entier = RVB(190, 191, 191)) : entier
+      
+      nIndice 	est un entier
+      sID			est une chaine
+      sLibellé	est une chaine
+      
+      
+      // Le champ Planning doit exister
+      si ChampExiste(sNomChampPlanning) = faux ALORS
+      	erreurconstruit("Le champ Planning %1 n'existe pas", sNomChampPlanning)
+      	renvoyer -1
+      FIN
+      
+      // Définit le libellé et l'identifiant de la ressource (si la ressource précisée contient un gLien)
+      si position(sRessource, ESC+"K") > 0 ALORS
+      	
+      	// Récupère le libellé et l'identifiant (gLien) en fonction de la position du gLien
+      	si extraitchaine(sRessource, 1, ESC+"K") ~= "" ALORS
+      		// Libellé
+      		sLibellé 	= ExtraitChaîne(sRessource, 3, ESC+"K")
+      		// Identifiant
+      		sID 		= ExtraitChaîne(sRessource, 2, ESC+"K")
+      	SINON
+      		// Libellé
+      		sLibellé 	= ExtraitChaîne(sRessource, 1, ESC+"K")
+      		// Identifiant
+      		sID 		= ExtraitChaîne(sRessource, 2, ESC+"K")
+      	FIN
+      	
+      SINON // pas de gLien
+      	
+      	// Le libellé et l'identifiant sont identiques
+      	sID 		= sRessource
+      	sLibellé 	= sRessource
+      	
+      FIN
+      
+      // Ajoute la ressource
+      nIndice = PlanningAjouteRessource(sNomChampPlanning, sRessource)
+      
+      // Modifie l'affichage du groupe pour "simuler" une rupture (hauteur réduite, couleur différente)
+      {sNomChampPlanning, indchamp}..Ressource[sID]..Hauteur 				= 20
+      {sNomChampPlanning, indChamp}..Ressource[sID]..CouleurFond 			= nCouleur
+      {sNomChampPlanning, indChamp}..Ressource[sID]..CouleurFondTitre 	= nCouleur
+      
+      // S'il s'agit du premier chargement : mémorise la "rupture" comme déroulée par défaut
+      SI gtaEnroulementRupture[sID]..Vide ALORS gtaEnroulementRupture[sID] = Vrai
+      
+      // Selon l'enroulement de la "rupture" à appliquer
+      SELON gtaEnroulementRupture[sID]
+      	// Déroulée
+      	CAS vrai
+      		// Ajoute un picto déroulé au titre
+      		{sNomChampPlanning, indChamp}..Ressource[sID]..Titre = gImage(IMG_Déroulé) +" "+ sLibellé
+      		
+      	// Enroulée
+      	CAS faux
+      		// Ajoute un picto enroulé au titre
+      		{sNomChampPlanning, indChamp}..Ressource[sID]..Titre = gImage(IMG_Enroulé) +" "+ sLibellé
+      		
+      FIN
+      
+      renvoyer nIndice
+     type : 458752
+   -
+     name : PlanningDéroule
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 1269439083994320883
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Déroule une "rupture" du champ Planning
+      // Syntaxe :
+      //[ <Résultat> = ] PlanningDéroule (<sNomChampPlanning> est chaîne, <sRessource> est chaîne)
+      //
+      // Paramètres :
+      //	sNomChampPlanning (chaîne ANSI) : Nom complet du champ Planning
+      //	sRessource (chaîne ANSI) : Ressource à dérouler
+      // Valeur de retour :
+      // 	booléen : Vrai si la "rupture" a pu être déroulée, Faux autrement
+      //// Traitement automatique des erreurs : RENVOYER FAUX
+      //
+      
+      PROCEDURE PlanningDéroule(LOCAL sNomChampPlanning est une chaine, LOCAL sRessource est une chaine) : booleen
+      
+      // Le champ Planning doit exister
+      SI ChampExiste(sNomChampPlanning) = Faux ALORS
+      	ErreurConstruit("Le champ Planning %1 n'existe pas", sNomChampPlanning)
+      	RENVOYER faux
+      FIN
+      
+      // Si la ressource n'est pas une ressource rupture
+      si PlanningEtatRessource(sNomChampPlanning, sRessource) = ressErreur ALORS
+      	renvoyer faux
+      FIN
+      
+      // Déroule la rupture
+      gtaEnroulementRupture[sRessource] = vrai
+      
+      renvoyer vrai
+     type : 458752
+   -
+     name : PlanningDérouleTout
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 1269439083994386466
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Déroule toutes les "ruptures" du champ Planning
+      // Syntaxe :
+      //[ <Résultat> = ] PlanningDérouleTout (<sNomChampPlanning> est chaîne)
+      //
+      // Paramètres :
+      //	sNomChampPlanning (chaîne ANSI) : Nom complet du champ Planning
+      // Valeur de retour :
+      // 	booléen : Vrai si la "rupture" a pu être déroulée, Faux autrement
+      //// Traitement automatique des erreurs : RENVOYER FAUX
+      //
+      
+      PROCEDURE PlanningDérouleTout(LOCAL sNomChampPlanning est une chaine) : booleen
+      
+      // Le champ Planning doit exister
+      SI ChampExiste(sNomChampPlanning) = Faux ALORS
+      	ErreurConstruit("Le champ Planning %1 n'existe pas", sNomChampPlanning)
+      	RENVOYER faux
+      FIN
+      
+      // Pour chaque ressource "rupture"
+      pour tout element bValeur, sIDRessource de gtaEnroulementRupture
+      	
+      	// Déroule la rupture
+      	gtaEnroulementRupture[sIDRessource] = Vrai	
+      	
+      FIN
+      
+      
+      renvoyer vrai
+     type : 458752
+   -
+     name : PlanningEnroule
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 1269439083994452033
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Enroule une "rupture" du champ Planning
+      // Syntaxe :
+      //[ <Résultat> = ] PlanningEnroule (<sNomChampPlanning> est chaîne, <sRessource> est chaîne)
+      //
+      // Paramètres :
+      //	sNomChampPlanning (chaîne ANSI) : Nom complet du champ Planning
+      //	sRessource (chaîne ANSI) : Ressource à enrouler
+      // Valeur de retour :
+      // 	booléen : Vrai si la "rupture" a pu être enroulée, Faux autrement
+      //// Traitement automatique des erreurs : RENVOYER FAUX
+      //
+      
+      PROCEDURE PlanningEnroule(LOCAL sNomChampPlanning est une chaine, LOCAL sRessource est une chaine) : booleen
+      
+      // Le champ Planning doit exister
+      SI ChampExiste(sNomChampPlanning) = Faux ALORS
+      	ErreurConstruit("Le champ Planning %1 n'existe pas", sNomChampPlanning)
+      	RENVOYER faux
+      FIN
+      
+      // Si la ressource n'est pas une ressource rupture
+      si PlanningEtatRessource(sNomChampPlanning, sRessource) = ressErreur ALORS
+      	renvoyer faux
+      FIN
+      
+      // Enroule la rupture
+      gtaEnroulementRupture[sRessource] = faux
+      
+      renvoyer vrai
+     type : 458752
+   -
+     name : PlanningEnrouleTout
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 1269439083994517616
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Enroule toutes les "ruptures" du champ Planning
+      // Syntaxe :
+      //[ <Résultat> = ] PlanningEnrouleTout (<sNomChampPlanning> est chaîne)
+      //
+      // Paramètres :
+      //	sNomChampPlanning (chaîne ANSI) : Nom complet du champ Planning
+      // Valeur de retour :
+      // 	booléen : Vrai si la "rupture" a pu être enroulée, Faux autrement
+      //// Traitement automatique des erreurs : RENVOYER FAUX
+      //
+      
+      PROCEDURE PlanningEnrouleTout(LOCAL sNomChampPlanning est une chaine) : booleen
+      
+      // Le champ Planning doit exister
+      SI ChampExiste(sNomChampPlanning) = Faux ALORS
+      	ErreurConstruit("Le champ Planning %1 n'existe pas", sNomChampPlanning)
+      	RENVOYER faux
+      FIN
+      
+      // Pour chaque ressource "rupture"
+      pour tout element bValeur, sIDRessource de gtaEnroulementRupture
+      	
+      	// Enroule la rupture
+      	gtaEnroulementRupture[sIDRessource] = faux	
+      	
+      FIN
+      
+      renvoyer vrai
+     type : 458752
+   -
+     name : PlanningEtatRessource
+     internal_properties : CAAAAAgAAACyXtUx5TaT/Nz7GDCOGNV5qZTKlKZxKscycyLxnKCJxXGFe+iFZrFmU9uxK5RNy/Ho23aJHplFtcRK7ThuqXKrQlhFtVO2aMePwTKg/2hFQ6n3Gp2T+bwiPf+WfqjrSZVe1sozstBo5ms/rr+VKZWjS/9SbooOORMnZy1HX8fYjR1UFQ20+zW2HU69UYKahdXgvwWjiNYh
+     procedure_id : 1269439083994583198
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Renvoie l'état (enroulé / déroulé) d'une ressource "rupture"
+      // Syntaxe :
+      //[ <Résultat> = ] PlanningEtatRessource (<sNomChampPlanning> est chaîne, <sIDRessource> est chaîne)
+      //
+      // Paramètres :
+      //	sNomChampPlanning (chaîne ANSI) : Nom complet du champ Planning
+      //	sIDRessource (chaîne ANSI) : Identifiant de la ressource
+      // Valeur de retour :
+      // 	énumération : Etat de la ressource
+      //// Traitement automatique des erreurs :   exécuter le bloc de code CAS ERREUR
+      //
+      
+      PROCEDURE PlanningEtatRessource(LOCAL sNomChampPlanning est une chaine, LOCAL sIDRessource est une chaine) : EEtatRessource
+      
+      
+      // Le champ Planning doit exister
+      SI ChampExiste(sNomChampPlanning) = Faux ALORS
+      	ErreurConstruit("Le champ Planning %1 n'existe pas", sNomChampPlanning)
+      	RENVOYER ressErreur
+      FIN
+      
+      // Si la ressource n'est pas trouvée dans le tableau
+      si gtaEnroulementRupture[sIDRessource]..vide alors
+      	// Ressource non rupture
+      	renvoyer resserreur
+      FIN
+      
+      // Renvoie l'état d'enroulement
+      SELON gtaEnroulementRupture[sIDRessource]
+      	
+      	// Enroulée
+      	CAS Faux : renvoyer ressEnroulée
+      	
+      	// Déroulée
+      	CAS Vrai : RENVOYER ressderoulée
+      		
+      FIN
+      
+      CAS ERREUR:
+      		RENVOYER ressErreur
+     type : 458752
+   -
+     name : PlanningInverseEtatRessource
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 1269466868114737055
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Inverse l'état (enroulé / déroulé) d'une ressource "rupture"
+      // Syntaxe :
+      //[ <Résultat> = ] PlanningInverseEtatRessource (<sNomChampPlanning> est chaîne, <sIDRessource> est chaîne)
+      //
+      // Paramètres :
+      //	sNomChampPlanning (chaîne ANSI) : Nom complet du champ Planning
+      //	sIDRessource (chaîne ANSI) : Identifiant de la ressource
+      // Valeur de retour :
+      // 	booléen : Vrai si l'inversion est faite, Faux autrement
+      //// Traitement automatique des erreurs : RENVOYER FAUX
+      //
+      
+      PROCEDURE PlanningInverseEtatRessource(LOCAL sNomChampPlanning est une chaine, LOCAL sIDRessource est une chaine) : booleen
+      
+      
+      // Le champ Planning doit exister
+      SI ChampExiste(sNomChampPlanning) = Faux ALORS
+      	ErreurConstruit("Le champ Planning %1 n'existe pas", sNomChampPlanning)
+      	RENVOYER Faux
+      FIN
+      
+      // Si la ressource n'est pas trouvée dans le tableau
+      si gtaEnroulementRupture[sIDRessource]..vide alors
+      	// Ressource non rupture
+      	renvoyer faux
+      FIN
+      
+      // Inverse l'état
+      gtaEnroulementRupture[sIDRessource] = pas gtaEnroulementRupture[sIDRessource]
+      	
+      // Modification effective
+      renvoyer vrai
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAravuN7gCjE2SkUWSjUgDlbh5zgRbRRWTjTzLVF81ztw8+mMCuYryPP7W5NF69Yz71EEFU0X1aTe47V1SjNwvJeewKsOAdBG0sho6gyiXijnCjUC9VXH2fdrhm3vucjUmMhD8zOIzePW35dyXO103H6T28mGw=
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1fc7969d1760694b
+  internal_properties : CAAAAAgAAACZEjEk9ePFZOo+39SDkDJRBhrPU5L8MGNkyQkX/peSMADIgmGIamrQQ4iQ
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
